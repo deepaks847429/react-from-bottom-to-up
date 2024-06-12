@@ -79,11 +79,49 @@ return (
 )
 }
 
+DAy -2
+
+Introduction to jsx
+
+javascript XML is a syntax extension to javascript.
+
+WHY JSX?
+
+React embraces the fact that rendering logic should be coupled with UI logic.
+Helpful as a visual aid when working with UI inside javascript.
+React seprates concerns instead of seprating technologies.
+It also allows React to show more useful errors and warning messages.
+
+Embedding javascript inside JSX
+
+Expressions in JSX
+
+
+Rendering Arrays and Objects
+
+{arr.map((num)=> <h2>{num}</h2>)}
 
 
 
 
 
+score keeper app
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
 
 
 
