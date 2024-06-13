@@ -106,6 +106,94 @@ Rendering Arrays and Objects
 
 
 score keeper app
+let score=0;
+let wicket=0;
+
+let ballwiseresult=[];
+
+function addOne(){
+  score+=1;
+  rootElement.render(<App />)
+}
+function addTwo(){
+  score+=2;
+  rootElement.render(<App />)
+}
+
+function addScore(num){
+  score+=num;
+  rootElement.render(<App />)
+}
+
+function addWicket(){
+  if(wicket<11){
+  wicket+=1;
+  rootElement.render(<App />);
+}}
+const App=()=>(
+  <>
+  <h1> Score keeper</h1>
+  <h1>score : {score}/{wicket}</h1>
+
+  <button onClick={addOne}>1</button>
+  <button onClick={addTwo}>2</button>
+  <button onClick={() =>addScore(3)}>3</button>
+  <button onClick={() =>addScore(3)}>4</button>
+  <button onClick={() =>addScore(3)}>5</button>
+  <button onClick={() =>addScore(3)}>6</button>
+  <button>wicket</button>
+  </>
+)
+const rootElement = ReactDOM.createRoot(document.getElementById("root"));
+rootElement.render(<App />)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+create react app
+
+for creating use-create-react-app
+
+for start -use npm start command.
+
+
+
+
+import/export
+
+export
+
+Named export(anything and everything)
+->export individually
+export let a=10;
+import a from "./app"
+->export at the bottom
+
+
+default export(one thing)
+
+React components
+
+->functional components
+->class based components
+
+
+
+
+
 
 
 
